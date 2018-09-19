@@ -1,0 +1,34 @@
+.water-facts {
+    padding-top: 75px;
+    h2{
+        font-weight: bold;
+    }
+    .fact {
+       
+        .icon {
+            position: relative;
+            height: 80px;
+            width: 80px;
+            margin: 17px auto 40px;
+            line-height: 120px;
+            transition: .4s ease;
+            i {
+                font-size: 41px;
+                color: $logoColor;
+                padding: 20px;
+                &::after {
+                    position: absolute;
+                    content: "";
+                    border: 1px solid #055ba4;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 5px;
+                    transform: rotate(45deg);
+                    left: 0;
+                    top: 11%;
+                    transition: .5s ease;
+                }
+            }
+        }
+    }
+}
